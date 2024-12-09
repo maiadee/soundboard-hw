@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daft Punk - HTML5 Audio</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Exo+2:400,300,200,900,700,600,500"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script defer src="scripts/app.js"></script>
+  </head>
+  <body>
+    <a href="https://imgbb.com/"
+      ><img
+        id="logo"
+        src="https://i.ibb.co/rfF1phk/logo.png"
+        alt="logo"
+        border="0"
+    /></a>
+    <div class="grid-parent">
+      <div class="grid-container">
+        <!-- bellow is how I orignally formatted them all with a button - click worked to play my audio but mousever wouldnt 
+         (I thought it had to play when hovering not when clicking!)-->
+        <!-- <div class="grid-item">
+          <button id="workIt">Work It</button
+          ><audio hidden id="workItAudio">
+            <source src="sounds/work_it.wav" type="audio/wav" />
+          </audio>
+        </div> -->
+
+        <div class="grid-item" id="workIt">
+          Work It<audio hidden id="workItAudio">
+            <source src="sounds/work_it.wav" type="audio/wav" />
+          </audio>
+        </div>
+
+        <div class="grid-item" id="makeIt">
+          Make It
+          <audio hidden id="makeItAudio">
+            <source src="sounds/make_it.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="doIt">
+          Do It<audio hidden id="doItAudio">
+            <source src="sounds/do_it.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="makesUs">
+          Makes Us
+          <audio hidden id="makesUsAudio">
+            <source src="sounds/makes_us.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="harder">
+          Harder
+          <audio hidden id="harderAudio">
+            <source src="sounds/harder.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="better">
+          Better
+          <audio hidden id="betterAudio">
+            <source src="sounds/better.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="faster">
+          Faster
+          <audio hidden id="fasterAudio">
+            <source src="sounds/faster.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="stronger">
+          Stronger
+          <audio hidden id="strongerAudio">
+            <source src="sounds/stronger.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="moreThan">
+          More Than<audio hidden id="moreThanAudio">
+            <source src="sounds/more_than.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="hour">
+          Hour
+          <audio hidden id="hourAudio">
+            <source src="sounds/hour.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="our">
+          Our
+          <audio hidden id="ourAudio">
+            <source src="sounds/our.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="never">
+          Never
+          <audio hidden id="neverAudio">
+            <source src="sounds/never.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="ever">
+          Ever
+          <audio hidden id="everAudio">
+            <source src="sounds/ever.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="after">
+          After
+          <audio hidden id="afterAudio">
+            <source src="sounds/after.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="workIs">
+          Work Is
+          <audio hidden id="workIsAudio">
+            <source src="sounds/work_is.wav" type="audio/wav" />
+          </audio>
+        </div>
+        <div class="grid-item" id="over">
+          Over
+          <audio hidden id="overAudio">
+            <source src="sounds/over.wav" type="audio/wav" />
+          </audio>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
